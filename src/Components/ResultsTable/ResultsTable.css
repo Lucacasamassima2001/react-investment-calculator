@@ -1,0 +1,27 @@
+table {
+  margin-top: 5rem;
+  margin-inline: auto;
+  width: 50rem;
+  padding: 1rem;
+}
+
+table > tbody > tr {
+  text-align: right;
+  color: rgb(188, 207, 171);
+}
+
+tr > td {
+  padding: 0.3rem;
+  font-weight: bold;
+}
+
+th {
+  color: rgba(45, 140, 108, 255);
+}
+
+.warning {
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}

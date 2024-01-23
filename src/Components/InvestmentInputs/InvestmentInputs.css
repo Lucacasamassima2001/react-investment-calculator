@@ -1,0 +1,32 @@
+.calculator {
+  width: 50rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  border-radius: 10px;
+  background-color: rgba(45, 140, 108, 255);
+  padding: 2rem;
+}
+
+.calculator__input {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+.calculator__input > label {
+  font-size: 1rem;
+}
+
+.calculator__input > input {
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+}
